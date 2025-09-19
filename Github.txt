@@ -1,0 +1,39 @@
+-- New file from GitHub
+
+git clone (repository link)
+cd folder name (tab)
+
+-- local file upload to GitHub
+
+create file
+git add (file name)                         insert -> add -> commit -> push
+git commit -m "commit message"
+git push origin main
+
+-- after modify 
+
+add -> commit -> push
+
+-- local folder push to GitHub
+
+git init
+git add .
+git commit -m "commit message"
+git remote add origin (repository link)
+git branch -M main
+git push origin main
+
+
+-- branch
+
+change branch = git checkout (branch name) 
+
+git diff
+
+git merge (another branch name)          main -> sub branch    then git push origin main
+
+create branch = git branch (branch name)
+create file
+git add .
+git commit -m "commit message"
+git push origin "branch name"
